@@ -1,0 +1,46 @@
+# ===== Go build artifacts =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ===== Go workspace & modules =====
+go.work
+go.work.sum
+
+# ===== Vendor directory (optional) =====
+vendor/
+
+# ===== Go coverage =====
+coverage.out
+coverage.txt
+
+# ===== Go cache =====
+/bin/
+/dist/
+
+# ===== IDEs & Editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Environment variables =====
+.env
+.env.local
+.env.*.local
+
+# ===== Temporary files =====
+tmp/
+temp/
