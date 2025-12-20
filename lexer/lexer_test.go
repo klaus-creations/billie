@@ -62,6 +62,8 @@ func (l *Lexer) NextToken() token.Token {
 }
 
 
+
+// Test the next function which comes after it
 func TestNextFunction (t *testing.T) {
     input := `=+(){}`
 
