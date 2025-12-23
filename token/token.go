@@ -23,6 +23,9 @@ const (
 
     ASSIGN = "="
     PLUS = "+"
+	MINUS = "-"
+	MULTIPLICATION = "*"
+	DIVIDE = "/"
 
     COMMA = ","
     SEMICOLON = ";"
