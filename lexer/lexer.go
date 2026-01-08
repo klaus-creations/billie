@@ -4,6 +4,7 @@ import (
 	"billie/token"
 )
 
+// thi is something cool that we need to check thing
 type Lexer struct {
 	input 		 string
 	position 	 int
